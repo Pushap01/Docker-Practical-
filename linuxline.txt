@@ -1,0 +1,23 @@
+UPDATES PACKAGES IN LINUX(DEBIAN)
+
+sudo apt update	{sync with the repository checks the packages}
+sudo apt upgrade	{updates the packages don't updates the which required to remove the packages}
+sudo apt dist-upgrade	{updates the packages also the one which required to remove the packages}
+
+CHANGE HOST NAME(DEBIAN) 
+
+hostname	{Provides hostname}
+cat /etc/hostname	{where hostname is stored}
+hostnamectl	{Provides all the info about your devices from hostname, Machine ID, Boot ID, OS, Kernel, Architecture, Hardware Model, firmware version, Firmware Date, Firmware Age.
+sudo hostnamectl set-hostname here.type.hostname.that.u.want.to.give
+sudo nano /etc/hosts	{edit the etc file with hostname, if u didn't do u might actualy  get some  error in the terminal if u don't set it here, it comes in good practice }
+
+
+The apt Command
+
+
+search apt (If u don't packages name just know the intials of that packages u can search it ex:-search apt vim)
+Sudo apt update (updates the packages)
+Sudo apt upgrade(to install the updated packages)(Don't install the additional upgrades which required instaltion of additonal packages or removal of packages)
+Sudo apt dist-upgrade(install the packages which required the installation of additional packages or removal of packages for installation of the packages)
+sudo nano /etc/aot/sources.list (sources for packages )
